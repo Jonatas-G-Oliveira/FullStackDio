@@ -16,7 +16,7 @@ classDiagram
   class Conta{
   -String numero
   -String agencia
-  -Int numero
+  -Int dinheiro
   -Int limite
 }
 
