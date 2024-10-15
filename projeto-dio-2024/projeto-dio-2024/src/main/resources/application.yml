@@ -1,0 +1,16 @@
+spring:
+    datasource:
+        #url: jdbc:postgresql://${PROD_DB_HOST}:${PROD_DB_PORT}/${PROD_DB_NAME}
+        url: postgresql:postgresql://postgres.railway.internal:5432/railway?autoReconnect=true
+        username: postgres
+        password: IWRAnqcteCjzMfLjbPmwWWyEVWDmXhcZ
+        name: spring
+        
+    jpa:
+        database: POSTGRESQL
+        show-sql: true
+        hibernate:
+            ddl-auto: create-drop
+    
+    
+
