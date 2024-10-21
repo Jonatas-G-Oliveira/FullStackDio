@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Noticias</title>
+    <link rel="stylesheet" href="estilos/card.css">
+    <script src ="Componets/CardNews.js" defer></script>
+    <script src ="Componets/TituloDinamico.js" defer></script>
+</head>
+<body>
+    <div class = "container">
+        <div class = "card">
+            <div class="card_left">
+                <span>Jonatas Oliveira</span>
+                <a href="#">Darth Vader esta contratando devs</a>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                    Reprehenderit et fug.</p>
+                <p></br> Jul 14 - 3 min  Nome do site</p>
+            </div>
+            <div class="card_right">
+                <img src = "assets/baby-yoda.webp" alt="Baby yoda" width = "300" height = "200" >
+            
+                </div>
+            </div>
+        </div>
+    <br>
+    <card-news autor = "Jonatas Oliveira" 
+               titulo="Darth Vader esta contratando devs"
+               link-url="www.google.com"
+               conteudo = "Lorem ipsum dolor sit amet consectetur,adispiscing elit,Presehenderit et fug."
+               imagem = "assets/baby-yoda.webp"
+               rodape = "Jul 14 - 3 min Nome do site"
+               >
+    </card-news>
+    <br>
+    <card-news ></card-news>
+    
+    <card-news autor = "Jonatas Oliveira" 
+               titulo="Terminanamo a primeira parte"
+               link-url="www.google.com"
+               conteudo = "Lorem ipsum dolor sit amet consectetur,adispiscing elit,Presehenderit et fug."
+               imagem = ""
+               rodape = "Jul 14 - 3 min Nome do site"
+               >
+    </card-news>
+
+</body>
+</html>
